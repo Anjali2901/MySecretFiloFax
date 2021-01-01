@@ -1,2 +1,2 @@
-# MySecretFiloFax
+# TheSecretFiloFax
 An online diary
