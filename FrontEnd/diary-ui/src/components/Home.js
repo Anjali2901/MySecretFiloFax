@@ -3,23 +3,24 @@ import Form from './common/Form';
 import styled from 'styled-components';
 import Login from './Login';
 import Signup from './Signup';
-import Header from './Header';
+import Header from './Header'; 
 
 function Home() {
     
     return (
         <>
-
+ <div class="bg_image"
+        style={{
+       //   backgroundImage: 'url("./public/assets/images/UI_homepage_Cover.jpg")',        
+         
+        backgroundColor:'seagreen',backgroundSize: "cover"
+        }}>
         <Header />
         {/* <Button>
         <div>  <Login /> </div>
         <div>  <Signup /> </div>
         </Button> */} 
-           <div class="bg_image"
-        style={{
-          backgroundImage: 'url("./public/assets/images/UI_homepage_Cover.jpg")',
-          backgroundSize: "cover"
-        }}>
+          
         <Wrapper>
            <h1>"Welcome to secret keeper of your profound thoughts and bright ideas."</h1>
            <div>
